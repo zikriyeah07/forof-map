@@ -53,3 +53,4 @@ heros.forEach((key,value)=>{//console.log(`${key} and value ${value}`);
 // superman and value 0
 // spiderman and value 1
 // batman and value 2
+// new
