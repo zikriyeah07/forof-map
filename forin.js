@@ -17,3 +17,11 @@ for (const key of arr) {
 }
 
 // for is also can be used for array but is not advisible as for each or for of shall be used 
+
+//let me show yow one more thing
+arr.forEach((key,value,array)=>{console.log(`this is key:${key}, this value ${value} , and this is full array ${array}`);
+})
+
+// this is key:superman, this value 0 , and this is full array superman,spiderman,batman
+// this is key:spiderman, this value 1 , and this is full array superman,spiderman,batman
+// this is key:batman, this value 2 , and this is full array superman,spiderman,batman
