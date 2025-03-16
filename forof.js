@@ -34,18 +34,3 @@ let team = {
 //this will give error becoz for of can not be used for object
 
 //but let see whats map and how its itreatable
-
-let languages =new Map();
-languages.set("onion",12)
-// console.log(languages.get("onion"));
-//it will print onion
-
-languages.set("tomato" ,20)
-languages.set("JavaScript",'js')
-// for (const key of languages) {
-//     console.log(key.values);
-    
-// }
-// console.log(languages.size);//gives the number of like thing in map on=bject whic is three
-
-// console.log(languages.has("onion")); //give if the value is present or not
